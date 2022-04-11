@@ -1,0 +1,47 @@
+.our-best {
+    background-image: url('../../../public/images/our-best__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+    padding-bottom: 110px;
+}
+.our-best__title {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    padding: 80px 0 40px;
+}
+.our-best__cards {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.our-best__card {
+    width: 220px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+}
+.our-best__card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.our-best__card__description {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.our-best__card__price {
+    text-align: right;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+.our-best__card__img {
+    margin: 0 auto;
+    height: 130px;
+}
